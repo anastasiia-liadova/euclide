@@ -1,0 +1,20 @@
+:root {
+    /* sazes */
+    --container-max-width: 1920px;
+    --container-padding: 0 65px;
+    --container-margin: 0 auto;
+    --body-min-width: 320px;
+
+    /* color */
+    --white: #fff;
+    --black: #000;
+    --grey: #666;
+    --light-grey: #cacaca;
+    --deep-grey: #414141;
+    --deep-orange: #E1670E;
+    --orange: #FF9900;
+    --light-orange: #FFB84D;
+
+    /* transition */
+    --short: 0.5s;
+}

@@ -1,0 +1,131 @@
+/* out work */
+
+.our-work-title {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.our-work {
+  margin-bottom: 100px;
+}
+
+.our-work__list {
+  margin-bottom: 45px;
+}
+
+.our-work__items:not(:last-child) {
+  margin-right: 85px;
+}
+
+.our-work__buttons {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--black);
+  transition: color var(--short) ease-in-out, outline var(--short) ease-in-out;
+}
+
+.our-work__buttons:not(:last-child) {
+  padding-right: 86px;
+}
+
+.our-work__buttons:focus {
+  outline: 2px solid var(--orange);
+  outline-offset: 5px;
+}
+
+.our-work__buttons:hover {
+  outline: none;
+  color: var(--orange);
+}
+
+.our-work__buttons:active {
+  outline: none;
+  color: var(--deep-orange);
+}
+
+.our-work__list-item-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between
+}
+
+/* .our-work__list-item-2,
+  .our-work__list-item-3,
+  .our-work__list-item-4 {
+    display: none;
+  } */
+
+.our-work__text {
+  width: calc(760 / 1770 * 100%);
+}
+
+.our-work__subtex-width {
+  max-width: 758px;
+}
+
+.subtex-width-1 {
+  letter-spacing: 0.3px;
+}
+
+.subtex-width-2 {
+  margin-bottom: 18px;
+}
+
+.our-work__btn-1 {
+  padding: 20px 38px;
+  margin-right: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.our-work__btn-2 {
+  padding: 20px 38px;
+  border: 1px solid var(--black);
+  border-radius: 16px;
+  background-color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--black);
+  transition: color var(--short) ease-in-out,
+    background-color var(--short) ease-in-out, border var(--short) ease-in-out;
+}
+
+.our-work__btn-2:focus {
+  border: 1px solid var(--grey);
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+.our-work__btn-2:hover {
+  border: 1px solid var(--grey);
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+.our-work__btn-2:active {
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.our-work__img-wrap {
+  width: calc(870 / 1770 * 100%);
+  padding-top: 10px;
+}
+
+.our-work__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+.our-work__button {
+  margin-bottom: 45px;
+}
+

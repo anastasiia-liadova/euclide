@@ -1,0 +1,16 @@
+/* question */
+
+.question {
+    margin-bottom: 97px;
+  }
+  
+  .question__title {
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .color-light-grey {
+    color: var(--light-grey);
+  }
+  
+  
